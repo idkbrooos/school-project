@@ -93,7 +93,7 @@ html {
   main {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
   }
   
   .hero {
@@ -113,7 +113,7 @@ html {
   }
   
   section {
-    background-color: orange;
+    background-color: rgba(0,0,0,.1);
     height: 400px;
     width: 700px;
     display: flex;
