@@ -3,6 +3,8 @@ html {
   }
   
   body {
+    margin: 0;
+    padding: 0;
     background-image: url(https://cdn.wallpapersafari.com/31/68/hSHmeL.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -133,6 +135,7 @@ html {
   .par {
     color: white;
     font-size: 250%;
+
     text-align: center;
     background-color: #B68050;
   }
