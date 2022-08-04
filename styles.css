@@ -5,8 +5,38 @@ body {
 padding : 0;
 margin : 0;
 background-size : cover;
-background-image : url(xd2.jpg);
 background-repeat : no-repeat;
+height: fit-content;
+width:fit-content;
+}
+.container{
+    height:100vh;
+    width:100%;
+    background-image:url(xd.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+     transition:2s;
+
+
+     animation-name:animate;
+    animation-direction:alternate-reverse;
+    animation-duration:10s;
+    animation-fill-mode:forwards;
+    animation-iteration-count:infinite;
+    animation-play-state:running;
+    animation-timing-function:ease-in-out;
+}
+@keyframes animate{
+    25%{
+        background-image: url(xd2.jpg);
+    }
+    50%{
+        background-image: url(xd3.jpg   );
+    }
+    100%{
+        background-image: url(xd3.jpg);
+    }
 }
 header {
 background-color : rgb(0, 0, 0, 0.3);
