@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Knewave&family=Poppins:wght@300;400;500&display=swap');
 *
  {
+    color: black;
     font-family: 'Poppins', sans-serif;}
 body {
 padding : 0;
@@ -27,13 +28,13 @@ margin : 0;
 }
 @keyframes animate{
     25%{
-        background-image: url(main-images/xd2.jpg);
+        background-image: url(../main-images/xd2.jpg);
     }
     50%{
-        background-image: url(main-images/xd2.jpg   );
+        background-image: url(../main-images/xd3.jpg   );
     }
     100%{
-        background-image: url(main-images/xd3.jpg);
+        background-image: url(../main-images/xd4.jpg);
     }
 }
 header {
@@ -45,6 +46,9 @@ height : 100px;
 display : grid;
 grid-template-columns : 3fr 1fr;
 }
+.heading {
+    color: white;
+}
 header h1 {
 display : flex;
 font-size : 3em;
@@ -54,8 +58,10 @@ margin-inline-start : 0;
 margin-inline-end : 0;
 font-weight : bold;
 justify-content : center;
-margin-left : 440px;
+margin-left : 600px;
+margin-bottom: 100px;
 }
+
 .slider-frame {
 overflow : hidden;
 height : max-content;
@@ -148,6 +154,7 @@ align-items : center;
 .hero {
 font-size : 25px;
 display : flex;
+color: white;
 justify-content : center;
 }
 .about {
@@ -161,7 +168,7 @@ font-size : 20px;
 section {
 background-color : rgb(0, 0, 0, 0.2);
 height : 400px;
-color : yellow;
+color : white;
 width : 700px;
 display : flex;
 flex-direction : column;
