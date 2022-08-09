@@ -30,10 +30,10 @@ margin : 0;
         background-image: url(main-images/xd2.jpg);
     }
     50%{
-        background-image: url(main-images/xd2.jpg   );
+        background-image: url(main-images/xd3.jpg   );
     }
     100%{
-        background-image: url(main-images/xd3.jpg);
+        background-image: url(main-images/xd4.jpg);
     }
 }
 header {

@@ -12,6 +12,11 @@ background-color:cornsilk;
 .goals {
     color: white;
 }
+img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 header {
 background-color :darkorange;
 padding : 3px;
