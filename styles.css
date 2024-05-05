@@ -160,7 +160,7 @@ font-size : 20px;
 }
 section {
 background-color : rgb(0, 0, 0, 0.2);
-height : 400px;
+height : fit-content;
 color : yellow;
 width : 700px;
 display : flex;
